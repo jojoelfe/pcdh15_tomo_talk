@@ -1,7 +1,7 @@
 <template>
   <div class="comp-container" @mousedown="startMove">
     <div class="sc-container">
-      <img src="./assets/cell.svg" style="position:absolute;top:150px;right:0;height:800px;z-index:-1;">
+      <img src="./assets/cell.svg" style="position:absolute;top:50px;right:0;height:500px;z-index:-1;">
     </div>
   </div>
 </template>
@@ -391,8 +391,7 @@ export default {
   top: 3em;
   left: 0;
   right: 0;
-  height: 950px;
-  width: 1920px;
+  
   vertical-align: top;
   overflow: hidden;
   grid-column: 2;

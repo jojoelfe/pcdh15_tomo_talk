@@ -8,10 +8,12 @@
 </template>
 
 <script>
+import StereociliaGraphic_svgVue from './StereociliaGraphic_svg.vue';
+import CurrentGraphic from './CurrentGraphic.vue'
 export default {
   components: {
-    "stereocilia-graphic": require("./StereociliaGraphic_svg.vue"),
-    "current-graphic": require("./CurrentGraphic.vue")
+    "stereocilia-graphic": StereociliaGraphic_svgVue,
+    "current-graphic": CurrentGraphic
   },
   props: {
     playing: false

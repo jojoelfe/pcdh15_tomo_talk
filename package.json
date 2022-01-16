@@ -8,7 +8,9 @@
   "dependencies": {
     "@slidev/cli": "^0.28.1",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "node-sass": "*",
+    "sass": "*"
   },
   "name": "pcdh15_tomo_talk"
 }
