@@ -1,4 +1,4 @@
-# Imaging molecules in their native environment: cryo-electron tomgraphy imaging of pcdh15 in mouse stereocilia
+# Imaging molecules in their native environment: cryo-electron tomography of PCDH15 complexes in mouse stereocilia
 
 ## Abstract
 
@@ -28,16 +28,16 @@ School in the laboratory of Nikolaus Grigorieff. He obtained his PhD in 2015 in
 the laboratory of Ujwal Shinde at Oregon Health and Science University working
 on pH-mediated activation of the mammalian serine protease furin. He then joined
 Eric Gouaux at Oregon Health and Science University to study mechano-sensory
-transduction during hearing. Working together with Jingpeng Gai and Sarah Clark,
-he solved the structures of the PCDH15/Lhfpl5 complex that forms the lower end
+transduction during hearing. Working together with Jingpeng Ge and Sarah Clark,
+he solved the structures of the PCDH15/LHFPL5 complex that forms the lower end
 of the mammalian tip-link and of the motor protein prestin that underlies
-acustic amplification in the inner ear of mammals. They also used cryo-electron
+acoustic amplification in the inner ear of mammals. They also used cryo-electron
 tomography to study the localization, stoichiometry and structural flexibility
 of the tip-link in stereocilia extracted from the inner ear of mice, furthering
 our understanding of hearing by taking direct images of single molecules of the
 underlying protein machinery. In 2021 he joined Nikolaus Grigorieff to work on
 developing methods and software for high-throughput molecule detection in
-cryo-electron micropraphs for visual proteomics.
+cryo-electron micrographs to enable visual proteomics.
 
 ---
 

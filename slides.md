@@ -17,6 +17,7 @@ title:  Imaging molecules in their native environment - cryo-electron tomgraphy 
 #  Imaging molecules in their native environment
 ## Cryo-electron tomgraphy imaging of Pcdh15 in mouse stereocilia
 
+Johannes Elferich
 
 <div class="abs-br m-6 flex gap-2">
   

@@ -388,7 +388,7 @@ export default {
   display: inline-block;
 
   position: fixed;
-  top: 3em;
+  top: 1em;
   left: 0;
   right: 0;
   
