@@ -118,7 +118,7 @@ export default {
       .select(".sc-container")
       .append("svg")
       .attr("preserveAspectRatio", "xMinYMin meet")
-      .attr("viewBox", "0 0 1920 950")
+      .attr("viewBox", "0 0 1920 1080")
       .style("max-height", "100%")
       .classed("sc-content", true)
       .node();
@@ -155,8 +155,8 @@ export default {
 
         // Map the screen pixels back to svg coords
         newPt = point.matrixTransform(transform);
-        circlePos.cx = newPt.x;
-        circlePos.cy = newPt.y;
+        circlePos.cx = newPt.x + 960;
+        circlePos.cy = newPt.y + 540;
       };
       const moveFn = evt => getPos(evt, point);
      
@@ -173,6 +173,7 @@ export default {
     getMousePos(mouseEvent, point) {
       point.x = mouseEvent.clientX;
       point.y = mouseEvent.clientY;
+      
     },
     getStereociliaPath(x, length, low = 1, zoom = [1, [70, 500]]) {
       var that = this;
@@ -388,7 +389,7 @@ export default {
   display: inline-block;
 
   position: fixed;
-  top: 1em;
+  top: 0;
   left: 0;
   right: 0;
   

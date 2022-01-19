@@ -56,7 +56,7 @@ export default {
         "translate(" + width / 2 + "," + (height + margin.top + 20) + ")"
       )
       .style("text-anchor", "middle")
-      .style("font-size", "0.4em")
+      .style("font-size", "1.4em")
       .attr("dy", "-0.3em")
 
       .text("Time");
@@ -69,7 +69,7 @@ export default {
       .attr("x", 0 - height / 2)
       .attr("dy", "1em")
       .style("text-anchor", "middle")
-      .style("font-size","0.4em")
+      .style("font-size","1.4em")
       .text("Current");
       svg.append("defs").append("marker")
     .attr("id", "arrowhead")

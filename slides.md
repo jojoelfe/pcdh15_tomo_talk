@@ -5,17 +5,17 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ##  Imaging molecules in their native environment: cryo-electron tomgraphy imaging of pcdh15 in mouse stereocilia
+  ##  Imaging molecules in their native environment: cryo-electron tomography imaging of pcdh15 in mouse stereocilia
 
   Presentation slides 
 drawings:
   persist: false
-title:  Imaging molecules in their native environment - cryo-electron tomgraphy imaging of pcdh15 in mouse stereocilia
+title:  Imaging molecules in their native environment - cryo-electron tomography imaging of pcdh15 in mouse stereocilia
 
 ---
 
 #  Imaging molecules in their native environment
-## Cryo-electron tomgraphy imaging of Pcdh15 in mouse stereocilia
+## Cryo-electron tomography imaging of Pcdh15 in mouse stereocilia
 
 Johannes Elferich
 
