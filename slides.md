@@ -33,12 +33,103 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# Hearing
+# Hair cells are the sensory cells for hearing, motion, and balance
 
-<stereocilia-animation></stereocilia-animation>
+<img src="/haircells.jpg" class="m-auto h-350px" />
+
+<cite >Credit: Hair cells of inner ear. Dr David Furness</cite>
+
 ---
 
-# Navigation
+# What hair cells do
+
+<stereocilia-animation></stereocilia-animation>
+
+---
+
+# The proteins underlying hair cell function
+
+<div class="grid grid-cols-2  gap-x-2em gap-y-1em">
+<img src="/components_cartoon.png" class="w-auto h-400px">
+
+<img src="/components_render.png" class="w-auto h-400px">
+<cite>Fettiplace</cite>
+</div>
+
+---
+
+# PCDH15/LHFPL5 structure
+
+---
+
+# Going in-situ
+
+<div class="flex">
+<img src="/approach.png" class="h-280px w-auto"/>
+<img src="/mmm1.png" class="h-280px w-auto"/>
+</div>
+
+---
+
+# Tomography
+
+<div class="flex">
+<img src="/Electron_Tomography.tif.jpg" class="w-auto h-400px"/>
+<video controls muted loop id="myVideo2" class="w-auto h-400px">
+  <source src="/tomo_ex.mp4" type="video/mp4">
+</video>
+<img src="/tomo_ex_xy.png" class="w-300px h-300px"/>
+<img src="/tomo_ex_xz.png" class="w-300px h-300px"/>
+<img src="/tomo_ex_zy.png" class="w-300px h-300px"/>
+
+</div>
+
+
+---
+
+# Is this PCDH15?
+
+<div class="flex">
+<img src="/isthispcdh15.png" class="w-auto h-400px"/>
+<img src="/meme.jpg" class="w-auto h-200px" />
+</div>
+
+
+---
+
+# Labeling PCDH15 with antibodies - Try 1
+
+---
+
+# Labeling PCDH15 with antibodies - Try 2
+
+---
+
+# 39G7-AuNP binds as expected
+
+---
+
+# Detection in-situ
+
+<video autoplay muted loop id="myVideo">
+  <source src="/labeled_movie.mp4" type="video/mp4">
+</video>
+
+---
+
+# PCDH15 location
+
+---
+
+# PCDh15 stoichiometry at the tip
+
+---
+
+# Best tomogram
+
+---
+
+# Summary + whats next
 
 ---
 # Acknowledgments
