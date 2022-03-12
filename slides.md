@@ -64,7 +64,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <img src="/pcdh15_lhfpl5_cartoon.png" class="h-450px w-auto" />
 <img src="/Cov_v1.png" class="h-450px w-auto">
 <video controls muted loop id="myVideo2" class="w-auto h-200px">
-  <source src="/Video 1.mov" type="video/mp4">
+  <source src="/Video1.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -148,7 +148,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 # Two AuNP labels consistent with PCDH15 dimers
 
 <video controls muted loop id="myVideo" class="h-450px">
-  <source src="/Movie S2.mp4" type="video/mp4">
+  <source src="/MovieS2.mp4" type="video/mp4">
 </video>
 
 ---
