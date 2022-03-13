@@ -163,13 +163,30 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <img src="/monomer.png" />
 
+---
+
+# One AuNP label - monomer? 
+
+<img src="/quant.png" />
 
 ---
+
 # PCDH15 stoichiometry at the tip
+
+<img src="/stoi.png" />
 
 ---
 
 # PCDH15 complexes - CDH23?
+
+<img src="/comp1.png" />
+
+---
+
+# PCDH15 complexes - CDH23?
+
+<img src="/comp2_1.png" />
+<img src="/comp2_2.png" />
 
 ---
 
