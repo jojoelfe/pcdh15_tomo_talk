@@ -1,17 +1,20 @@
 ---
-theme: seriph
-background: 
+theme: ./theme
+background: null
 class: text-center
 highlighter: shiki
 lineNumbers: false
-info: |
-  ##  Imaging molecules in their native environment: cryo-electron tomography imaging of pcdh15 in mouse stereocilia
+info: >
+  ##  Imaging molecules in their native environment: cryo-electron tomography
+  imaging of pcdh15 in mouse stereocilia
+
 
   Presentation slides 
 drawings:
   persist: false
-title:  Imaging molecules in their native environment - cryo-electron tomography imaging of pcdh15 in mouse stereocilia
-
+title: >-
+  Imaging molecules in their native environment - cryo-electron tomography
+  imaging of pcdh15 in mouse stereocilia
 ---
 
 #  Imaging molecules in their native environment
@@ -35,13 +38,13 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # Hair cells are the sensory cells for hearing, motion, and balance
 
-<img src="/haircells.jpg" class="m-auto h-350px" />
+<img src="/haircells.jpg" class="m-auto h-430px" />
 
-<cite >Credit: Hair cells of inner ear. Dr David Furness</cite>
+<cite class="ml-50px">Credit: Hair cells of inner ear. Dr David Furness</cite>
 
 ---
 
-# What hair cells do
+# How hair cells work
 
 <stereocilia-animation></stereocilia-animation>
 
@@ -50,10 +53,12 @@ The last comment block of each slide will be treated as slide notes. It will be 
 # The proteins underlying hair cell function
 
 <div class="grid grid-cols-2  gap-x-2em gap-y-1em">
-<img src="/components_cartoon.png" class="w-auto h-400px">
+<img src="/components_cartoon.png" class="w-auto h-380px">
 
-<img src="/components_render.png" class="w-auto h-400px">
-<cite>Fettiplace</cite>
+<img src="/components_render.png" class="w-auto h-380px">
+<cite>Fettiplace R. Is TMC1 the Hair Cell Mechanotransducer Channel? Biophys J.
+2016 Jul 12;111(1):3-9. </cite>
+<cite>Holt JR, Tobin M, Elferich J, Gouaux E, Ballesteros A, Yan Z, Ahmed ZM, Nicolson T. Putting the Pieces Together: the Hair Cell Transduction Complex. J Assoc Res Otolaryngol. 2021 Dec;22(6):601-608</cite>
 </div>
 
 ---
@@ -61,20 +66,30 @@ The last comment block of each slide will be treated as slide notes. It will be 
 # PCDH15/LHFPL5 structure
 
 <div class="flex">
-<img src="/pcdh15_lhfpl5_cartoon.png" class="h-450px w-auto" />
-<img src="/Cov_v1.png" class="h-450px w-auto">
-<video controls muted loop id="myVideo2" class="w-auto h-200px">
+<img src="/pcdh15_lhfpl5_cartoon.png" class="h-430px w-auto" />
+<img src="/Cov_v1.png" class="h-430px w-auto">
+<div class="w-400px" >
+<video controls muted loop id="myVideo2" class="w-auto h-200px m-auto">
   <source src="/Video1.mp4" type="video/mp4">
 </video>
+<ul class="mt-20px">
+<li>Are these conformational changes found <emph>in-situ</emph>?</li>
+<li>Despite substantial efforts there is no structural data on any other components</li>
+</ul>
+<h3 class="mt-30px text-red-600">We have to look at the real thing!</h3>
+</div>
+</div>
+<div class="ml-50px mt-10px">
+<cite >Ge J*, Elferich J*, Goehring A, Zhao H, Schuck P, Gouaux E. Structure of mouse protocadherin 15 of the stereocilia tip link in complex with LHFPL5. Elife. 2018 Aug 2;7:e38770</cite>
 </div>
 
 ---
 
 # Going in-situ
 
-<div class="flex">
+<div class="flex mt-100px">
 <img src="/approach.png" class="h-280px w-auto"/>
-<img src="/mmm1.png" class="h-280px w-auto"/>
+<img src="/mmm1.png" class="h-280px w-auto ml-50px"/>
 </div>
 
 ---
@@ -192,7 +207,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <div class="abs-bl w-full h-full">
 
-<img src="/Figure_6.png" class="h-551px m-100px" />
+<img src="/Figure_6.png" class="h-551px ml-100px" />
 
 </div>
 ---
@@ -221,4 +236,3 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 # Learn More
-
