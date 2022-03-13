@@ -1,7 +1,7 @@
 <template>
   <div class="comp-container" @mousedown="startMove">
     <div class="sc-container">
-      <img src="./assets/cell.svg" style="position:absolute;top:50px;right:0;height:500px;z-index:-1;">
+      <img src="./assets/cell.svg" style="position:absolute;top:25px;right:45px;height:500px;z-index:-1;">
     </div>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
   components: {},
   props: {
     scWidth: {
-      default: 65
+      default: 87
     },
     scTaper: {
       default: 20
@@ -219,7 +219,7 @@ export default {
           points.slice(9)
         );
 
-      points = points.map(x => [x[0], -x[1] + this.scBot]); // Fix Y coordinate
+      points = points.map(x => [x[0]-212, -x[1] + this.scBot+7]); // Fix Y coordinate
       points = points.map(a => [
         a[0] + (x - 0.5) * (this.scWidth + this.scSep) + this.scXPos,
         a[1]
@@ -256,7 +256,7 @@ export default {
       d3.select(that.svg)
         .select("pattern")
 
-        .attr("patternTransform", "rotate(" + that.angle + " 250 480)");
+        .attr("patternTransform", "rotate(" + that.angle + " 250 630)");
       that.probecircle
         .attr("cx", function(d) {
           return that.probePos.cx;

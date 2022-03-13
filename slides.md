@@ -15,6 +15,7 @@ drawings:
 title: >-
   Imaging molecules in their native environment - cryo-electron tomography
   imaging of pcdh15 in mouse stereocilia
+layout: intro
 ---
 
 #  Imaging molecules in their native environment
@@ -85,7 +86,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# Going in-situ
+# How to image stereocilia using cryo-EM
 
 <div class="flex mt-100px">
 <img src="/approach.png" class="h-280px w-auto"/>
@@ -94,27 +95,29 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# Tomography
+# Cryo-electron tomography
 
 <div class="flex">
-<img src="/Electron_Tomography.tif.jpg" class="w-auto h-400px"/>
-<video controls muted loop id="myVideo2" class="w-auto h-400px">
+<img src="/Electron_Tomography.tif.jpg" class="w-auto h-430px"/>
+<video controls muted loop id="myVideo2" class="w-auto h-430px">
   <source src="/tomo_ex.mp4" type="video/mp4">
 </video>
-<img src="/tomo_ex_xy.png" class="w-300px h-300px"/>
-<img src="/tomo_ex_xz.png" class="w-300px h-300px"/>
-<img src="/tomo_ex_zy.png" class="w-300px h-300px"/>
+<div class="grid grid-cols-2 ml-30px gap-y-0">
+<img src="/tomo_ex_xy.png" class="w-200px h-200px"/>
+<img src="/tomo_ex_zy.png" class="w-200px h-200px"/>
 
+<img src="/tomo_ex_xz.png" class="w-200px h-200px"/>
+</div>
 </div>
 
 
 ---
 
-# Is this PCDH15?
+# Identifying PCDH15
 
 <div class="flex">
 <img src="/isthispcdh15.png" class="w-auto h-400px"/>
-<img src="/meme.jpg" class="w-auto h-200px" />
+<img src="/meme.jpg" class="w-auto h-200px ml-30px" />
 </div>
 
 
@@ -122,13 +125,13 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # Labeling PCDH15 with antibodies - Try 1
 
-<div class="flex">
-<img src="/poly.png" class="w-auto h-400px" />
-<img src="/g26.png" class="w-auto h-400px" />
-<img src="/g27.png" class="w-auto h-400px" />
+<div class="flex flex-wrap">
+<img src="/poly.png" class="w-auto h-200px" />
+<img src="/g26.png" class="w-auto h-200px" />
+<img src="/g27.png" class="w-auto h-200px" />
 
-<img src="/slicer001.jpg" class="w-auto h-400px" />
-<img src="/title.png" class="w-auto h-400px" />
+<img src="/slicer001.jpg" class="w-auto h-300px" />
+<img src="/title.png" class="w-auto h-300px" />
 </div>
 
 ---
@@ -136,35 +139,38 @@ The last comment block of each slide will be treated as slide notes. It will be 
 # Labeling PCDH15 with antibodies - Try 2
 
 <div class="grid grid-cols-3" >
-<img src="/azubel.jpg">
+<img src="/azubel.jpg" />
+<img src="/trunc.png" />
+<img src="/graphannot.png" />
 <cite>Azubel, M., Carter, S. D., Weiszmann, J., Zhang, J., Jensen, G. J., Li, Y., & Kornberg, R. D. (2019). FGF21 trafficking in intact human cells revealed by cryo-electron tomography with gold nanoparticles. In eLife (Vol. 8). eLife Sciences Publications, Ltd. https://doi.org/10.7554/elife.43146 </cite>
 </div>
 
+---
+layout: cover
+background: /label_micrograph.png
 ---
 
 # 39G7-AuNP binds as expected
 
 
 <div class="flex">
-<img src="/label_micrograph.png" />
-<img src="/graph_we.png">
+<img src="/graph_we.png" class="abs-br m-10px h-150px p-10px" style="background-color:white;" > 
 </div>
 
+
+---
+layout: cover
 ---
 
-# Detection in-situ
 
-<video autoplay muted loop id="myVideo">
+
+<video autoplay muted loop id="myVideo" class="abs-bl w-full -z-1" >
   <source src="/labeled_movie.mp4" type="video/mp4">
 </video>
 
----
-
-# Two AuNP labels consistent with PCDH15 dimers
-
-<video controls muted loop id="myVideo" class="h-450px">
-  <source src="/MovieS2.mp4" type="video/mp4">
-</video>
+<div class="bg-gray-500/50 -ml-0.5rem pl-0.5rem  -mt-0.5rem rounded-1xl" style="display:table">
+<h1 class="text-white m-0.5rem mb-0.5rem -ml-1rem">Detection in-situ</h1>
+</div>
 
 ---
 
@@ -182,13 +188,13 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # One AuNP label - monomer? 
 
-<img src="/quant.png" />
+<img src="/quant.png" class="mt-75px"/>
 
 ---
 
-# PCDH15 stoichiometry at the tip
+# PCDH15 numbers at the tip
 
-<img src="/stoi.png" />
+<img src="/stoi.png" class="h-430px w-auto m-auto"/>
 
 ---
 
@@ -236,3 +242,13 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 # Learn More
+
+
+<!--  ---
+
+# Two AuNP labels consistent with PCDH15 dimers
+
+<video controls muted loop id="myVideo" class="h-450px">
+  <source src="/MovieS2.mp4" type="video/mp4">
+</video>
+-->
