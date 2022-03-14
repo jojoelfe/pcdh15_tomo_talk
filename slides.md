@@ -64,7 +64,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# PCDH15/LHFPL5 structure
+# Pcdh15/Lhfpl5 structure
 
 <div class="flex">
 <img src="/pcdh15_lhfpl5_cartoon.png" class="h-430px w-auto" />
@@ -92,6 +92,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <img src="/approach.png" class="h-280px w-auto"/>
 <img src="/mmm1.png" class="h-280px w-auto ml-50px"/>
 </div>
+<cite>Metlagel Z, Krey JF, Song J, Swift MF, Tivol WJ, Dumont RA, Thai J, Chang A, Seifikar H, Volkmann N, Hanein D, Barr-Gillespie PG, Auer M. Electron cryo-tomography of vestibular hair-cell stereocilia. J Struct Biol. 2019 May 1;206(2):149-155</cite>
 
 ---
 
@@ -113,7 +114,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# Identifying PCDH15
+# Identifying Pcdh15
 
 <div class="flex">
 <img src="/isthispcdh15.png" class="w-auto h-400px"/>
@@ -123,7 +124,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# Labeling PCDH15 with antibodies - Try 1
+# Labeling Pcdh15 with antibodies - Polyclonal
 
 <div class="flex flex-wrap">
 <img src="/poly.png" class="w-auto h-200px" />
@@ -136,7 +137,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# Labeling PCDH15 with antibodies - Try 2
+# Labeling Pcdh15 with antibodies - Monoclonal
 
 <div class="grid grid-cols-3" >
 <img src="/azubel.jpg" />
@@ -174,7 +175,7 @@ layout: cover
 
 ---
 
-# Two AuNP labels consistent with PCDH15 dimers
+# Two AuNP labels consistent with Pcdh15 dimers
 
 <img src="/dimer.png" />
 
@@ -192,22 +193,22 @@ layout: cover
 
 ---
 
-# PCDH15 numbers at the tip
+# Pcdh15 numbers at the tip
 
 <img src="/stoi.png" class="h-430px w-auto m-auto"/>
 
 ---
 
-# PCDH15 complexes - CDH23?
+# Pcdh15 complexes - Cdh23?
 
-<img src="/comp1.png" />
+<img src="/comp1.png" class="mt-100px"/>
 
 ---
 
-# PCDH15 complexes - CDH23?
+# Pcdh15 complexes - Cdh23?
 
-<img src="/comp2_1.png" />
-<img src="/comp2_2.png" />
+<img src="/comp2_1.png" class="h-210px m-auto"/>
+<img src="/comp2_2.png" class="h-210px mt-20px m-auto"/>
 
 ---
 
@@ -230,8 +231,8 @@ layout: cover
 </ul>
 </li>
 
-<li>Tip-links might occur in higher stoichiometries, similar to channels</li>
-<li>PCDH15 and potentially CDH23 have predetermined bending points to adopt geometries required for trafficking</li>
+<li>Tip-links might occur with more than one copy at the tip, similar to channels</li>
+<li>Pcdh15 and potentially Cdh23 have predetermined bending points to adopt geometries required for trafficking</li>
 
 <li>Detection of low-abundance and small proteins in cellular cryo-EM data remains challenging and an active area of research</li>
 <li>Faster and more robust sample preparation techniques are critical</li>
@@ -241,14 +242,17 @@ layout: cover
 # Acknowledgments
 
 ---
+
 # Learn More
 
+<div class="grid grid-cols-4">
+<div class="mx-4 bg-white rounded-lg shadow-xl flex flex-col">
+    <img src="https://elifesciences.org/assets/patterns/img/patterns/organisms/elife-logo-xs.fd623d00.svg"
+        class="w-1/1  rounded-lg">
+    <div class="p-4">
+        <p class="mb-1 text-sm font-bold text-gray-900 ">Molecular structures and conformations of protocadherin-15 and its complexes on stereocilia elucidated by cryo-electron tomography</p>
+        <p class="text-sm text-gray-600"> Johannes Elferich, Sarah Clark, Jingpeng Ge, April Goehring, Aya Matsui, Eric Gouaux</p>
+    </div>
+</div>
+</div>
 
-<!--  ---
-
-# Two AuNP labels consistent with PCDH15 dimers
-
-<video controls muted loop id="myVideo" class="h-450px">
-  <source src="/MovieS2.mp4" type="video/mp4">
-</video>
--->
