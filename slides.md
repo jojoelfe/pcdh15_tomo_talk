@@ -244,7 +244,7 @@ layout: cover
 ---
 
 # Learn More
-
+<a href="https://elifesciences.org/articles/74512">
 <div class="grid grid-cols-4">
 <div class="mx-4 bg-white rounded-lg shadow-xl flex flex-col">
     <img src="https://elifesciences.org/assets/patterns/img/patterns/organisms/elife-logo-xs.fd623d00.svg"
@@ -255,4 +255,5 @@ layout: cover
     </div>
 </div>
 </div>
+</a>
 
