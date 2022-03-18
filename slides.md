@@ -241,19 +241,66 @@ layout: cover
 
 # Acknowledgments
 
+<div class="grid grid-cols-3">
+<div>
+<p class="font-bold underline">Eric Gouaux</p>
+<p class="font-bold">Sarah Clark</p>
+<p class="font-bold">Jingpeng Ge</p>
+<p class="font-bold">April Goehring</p>
+<p class="font-bold">Aya Matsui</p>
+<p>Makayla Freitas​</p>
+<p>Prerana Gogoi​</p>
+<p>Farzad Jalali-Yazdi</p>
+<p>Junhoe Kim​</p>
+<p>Vikas Navratna</p>
+<p>Heidi Owen​</p>
+<p>Prashant Rao​</p>
+<p>Natalie Sheldon​</p>
+<p>Chang Su​</p>
+<p>Dongxue Yang​</p>
+<p>Jie Yu​</p>
+<p>Hongtao Zhu</p>
+</div>
+<div>
+<p class="font-bold underline mt-2rem">Peter Barr-Gillespie</p>
+<p>Jocelyn Krey</p>
+</div>
+</div>
+
+<style>
+p {
+font-size:1.3rem;
+line-height:0.8rem !important;
+ 
+}
+  
+</style>
+
 ---
 
 # Learn More
-<a href="https://elifesciences.org/articles/74512">
-<div class="grid grid-cols-4">
-<div class="mx-4 bg-white rounded-lg shadow-xl flex flex-col">
-    <img src="https://elifesciences.org/assets/patterns/img/patterns/organisms/elife-logo-xs.fd623d00.svg"
-        class="w-1/1  rounded-lg">
-    <div class="p-4">
-        <p class="mb-1 text-sm font-bold text-gray-900 ">Molecular structures and conformations of protocadherin-15 and its complexes on stereocilia elucidated by cryo-electron tomography</p>
-        <p class="text-sm text-gray-600"> Johannes Elferich, Sarah Clark, Jingpeng Ge, April Goehring, Aya Matsui, Eric Gouaux</p>
-    </div>
-</div>
-</div>
-</a>
 
+<div class="grid grid-cols-4">
+
+<paper-card title="Molecular structures and conformations of protocadherin-15
+and its complexes on stereocilia elucidated by cryo-electron tomography"
+authors="Johannes Elferich, Sarah Clark, Jingpeng Ge, April Goehring, Aya
+Matsui, Eric Gouaux"
+img_link="https://elifesciences.org/assets/patterns/img/patterns/organisms/elife-logo-xs.fd623d00.svg"
+link="https://elifesciences.org/articles/74512"></paper-card>
+
+<paper-card title="Structure of mouse protocadherin 15 of the stereocilia tip link in complex with LHFPL5"
+authors="Jingpeng Ge, Johannes Elferich, April Goehring, Huaying Zhao, Peter Schuck, Eric Gouaux"
+img_link="https://elifesciences.org/assets/patterns/img/patterns/organisms/elife-logo-xs.fd623d00.svg"
+link="https://elifesciences.org/articles/38770"></paper-card>
+
+
+</div>
+
+<style>
+a {
+border-style: none !important;
+ 
+}
+  
+</style>
