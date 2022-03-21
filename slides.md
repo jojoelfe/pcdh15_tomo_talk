@@ -103,22 +103,70 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <video controls muted loop id="myVideo2" class="w-auto h-430px">
   <source src="/tomo_ex.mp4" type="video/mp4">
 </video>
-<div class="grid grid-cols-2 ml-30px gap-y-0">
+<div class="grid grid-cols-2 ml-30px gap-y-0 gap-x-5px">
+<div>
+<p class="text-center mt-0 mb-0">XY</p>
 <img src="/tomo_ex_xy.png" class="w-200px h-200px"/>
+</div>
+<div>
+<p class="text-center mt-0 mb-0">ZY</p>
 <img src="/tomo_ex_zy.png" class="w-200px h-200px"/>
-
+</div>
+<div>
+<p class="text-center mt-0 mb-0">XZ</p>
 <img src="/tomo_ex_xz.png" class="w-200px h-200px"/>
 </div>
 </div>
+</div>
 
+<style>
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0.1rem !important;
+}
+</style>
+---
+
+# Technical details
+
+<div class="grid grid-cols-2 gap-x-10px">
+<div>
+<h3>Microscope</h3>
+
+- Titan Krios (Janelia and PNCC)
+- Gatan BioQuantum energy filter
+- Gatan K3 camera
+- Operated using SerialEM
+
+<h3>Parameters</h3>
+
+- 1.7 Å/pix pixelsize
+- 20 eV energy filter window
+- Dose-symmetric tomogram acquistion at 3° intervals from -60° to +60°
+- 120 e/Å total dose (~3 e/Å per exposure)
+- 2-3.5 µm defocus
+
+</div>
+
+<div>
+<h3>Data processing</h3>
+
+- Motion correction using UCSF Motioncor2
+- Tomogram processing using IMOD
+- In case of substantial deformation final reconstruction with TomoAlign
+- As necessary, tomograms were denoised using Topaz
+
+</div>
+
+</div>
 
 ---
 
 # Identifying Pcdh15
 
 <div class="flex">
-<img src="/isthispcdh15.png" class="w-auto h-400px"/>
-<img src="/meme.jpg" class="w-auto h-200px ml-30px" />
+<img src="/isthispcdh15.png" class="w-auto h-400px mt-40px"/>
+<img src="/meme.jpg" class="w-auto h-200px ml-20px mt-140px" />
 </div>
 
 
@@ -126,25 +174,31 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # Labeling Pcdh15 with antibodies - Polyclonal
 
-<div class="flex flex-wrap">
-<img src="/poly.png" class="w-auto h-200px" />
-<img src="/g26.png" class="w-auto h-200px" />
-<img src="/g27.png" class="w-auto h-200px" />
-
-<img src="/slicer001.jpg" class="w-auto h-300px" />
-<img src="/title.png" class="w-auto h-300px" />
+<div class="grid grid-cols-2 justify-items-center gap-y-25px">
+<img src="/poly.png" class="w-auto h-180px" />
+<div class="flex">
+<img src="/g26.png" class="w-auto h-180px" />
+<img src="/g27.png" class="w-auto h-180px" />
+</div>
+<img src="/slicer001.jpg" class="w-auto h-250px" />
+<img src="/title.png" class="w-auto h-250px" />
 </div>
 
 ---
 
 # Labeling Pcdh15 with antibodies - Monoclonal
 
-<div class="grid grid-cols-3" >
+<div class="grid grid-cols-3 gap-x-20px justify-items-center mt-50px" >
 <img src="/azubel.jpg" />
-<img src="/trunc.png" />
-<img src="/graphannot.png" />
-<cite>Azubel, M., Carter, S. D., Weiszmann, J., Zhang, J., Jensen, G. J., Li, Y., & Kornberg, R. D. (2019). FGF21 trafficking in intact human cells revealed by cryo-electron tomography with gold nanoparticles. In eLife (Vol. 8). eLife Sciences Publications, Ltd. https://doi.org/10.7554/elife.43146 </cite>
+<img src="/trunc.png" class="ml-50px"/>
+<img src="/graphannot.png" class="ml--70px"/>
+
 </div>
+
+<div class="w-400px">
+<cite >Azubel, M., Carter, S. D., Weiszmann, J., Zhang, J., Jensen, G. J., Li, Y., & Kornberg, R. D. (2019). FGF21 trafficking in intact human cells revealed by cryo-electron tomography with gold nanoparticles. In eLife (Vol. 8).  </cite>
+</div>
+
 
 ---
 layout: cover
@@ -222,10 +276,10 @@ layout: cover
 # Summary + whats next
 
 <ul>
-<li>Immuno-AuNP allow cryo-EM imaging of rare protein complexes
+<li>Immuno-AuNPs allow cryo-EM imaging of rare protein complexes
 <ul>
 <li>Location</li>
-<li>Stoichiometry</li>
+<li>Numbers</li>
 <li>Conformation</li>
 <li>Structure?</li>
 </ul>
@@ -264,13 +318,14 @@ layout: cover
 <div>
 <p class="font-bold underline mt-2rem">Peter Barr-Gillespie</p>
 <p>Jocelyn Krey</p>
+<p class="font-bold underline mt-2rem">Theresa Nicholson</p>
 </div>
 </div>
 
 <style>
 p {
-font-size:1.3rem;
-line-height:0.8rem !important;
+font-size:1.2rem;
+line-height:0.5rem !important;
  
 }
   
@@ -294,6 +349,15 @@ authors="Jingpeng Ge, Johannes Elferich, April Goehring, Huaying Zhao, Peter Sch
 img_link="https://elifesciences.org/assets/patterns/img/patterns/organisms/elife-logo-xs.fd623d00.svg"
 link="https://elifesciences.org/articles/38770"></paper-card>
 
+<paper-card title="FGF21 trafficking in intact human cells revealed by cryo-electron tomography with gold nanoparticles"
+authors="Maia Azubel, Stephen D Carter, Jennifer Weiszmann, Jun Zhang, Grant J Jensen, Yang Li, Roger D Kornberg"
+img_link="https://elifesciences.org/assets/patterns/img/patterns/organisms/elife-logo-xs.fd623d00.svg"
+link="https://elifesciences.org/articles/43146"></paper-card>
+
+<paper-card title="Electron cryo-tomography of vestibular hair-cell stereocilia"
+authors="Zoltan Metlagel, Jocelyn F Krey, Junha Song, Mark F Swift, William J Tivol, Rachel A Dumont, Jasmine Thai, Alex Chang, Helia Seifikar, Niels Volkmann, Dorit Hanein, Peter G Barr-Gillespie, Manfred Auer"
+img_link="https://www.ncbi.nlm.nih.gov/corehtml/pmc/pmcgifs/logo-jbsx.gif"
+link="https://www.sciencedirect.com/science/article/abs/pii/S1047847719300292?via%3Dihub"></paper-card>
 
 </div>
 
