@@ -24,7 +24,63 @@ layout: intro
 Johannes Elferich
 
 <div class="abs-br m-6 flex gap-2">
-  
+  <p> http://jojoelfe.github.io/pcdh15_tomo_talk</p>
+  <a href="https://github.com/jojoelfe/pcdh15_tomo_talk" target="_blank" alt="GitHub"
+    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
+</div>
+
+<!--
+The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
+
+---
+
+# Submit Questions
+
+<div class="grid grid-cols-2">
+<div class="mt-100px">
+
+- Submit all inquiries through the **Questions pane**
+
+- Issues regarding connectivity and webinar viewing will be addressed immediately
+
+- Questions for the speaker will be answered after the presentation 
+
+
+</div>
+<div>
+<img src="/questions.png" class="h-450px ml-80px"/>
+</div>
+</div>
+
+---
+
+# Speaker
+
+<div class="grid grid-cols-[2fr,1fr]" >
+<div>
+<h2 class="text-center mt-150px"> Johannes Elferich</h2>
+<h2 class="text-center"> UMass Chan Medical School</h2>
+</div>
+<div>
+<img src="/me.jpg" class="rounded-1/2 shadow-lg mt-75px" />
+</div>
+</div>
+
+---
+layout: intro
+class: text-center
+---
+
+#  Imaging molecules in their native environment
+## Cryo-electron tomography imaging of Pcdh15 in mouse stereocilia
+
+Johannes Elferich
+
+<div class="abs-br m-6 flex gap-2">
+  <p> http://jojoelfe.github.io/pcdh15_tomo_talk</p>
   <a href="https://github.com/jojoelfe/pcdh15_tomo_talk" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -39,7 +95,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # Hair cells are the sensory cells for hearing, motion, and balance
 
-<img src="/haircells.jpg" class="m-auto h-430px" />
+<div class="flex mt-30px" >
+<img src="/haircells.jpg" class="w-600px h-auto" />
+<img src="/tiplink.jpg" class="w-310px h-auto">
+</div>
 
 <cite class="ml-50px">Credit: Hair cells of inner ear. Dr David Furness</cite>
 
@@ -56,10 +115,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div class="grid grid-cols-2  gap-x-2em gap-y-1em">
 <img src="/components_cartoon.png" class="w-auto h-380px">
 
-<img src="/components_render.png" class="w-auto h-380px">
+<img src="/components_render.png" class="w-auto h-380px" v-click>
 <cite>Fettiplace R. Is TMC1 the Hair Cell Mechanotransducer Channel? Biophys J.
 2016 Jul 12;111(1):3-9. </cite>
-<cite>Holt JR, Tobin M, Elferich J, Gouaux E, Ballesteros A, Yan Z, Ahmed ZM, Nicolson T. Putting the Pieces Together: the Hair Cell Transduction Complex. J Assoc Res Otolaryngol. 2021 Dec;22(6):601-608</cite>
+<cite v-after>Holt JR, Tobin M, Elferich J, Gouaux E, Ballesteros A, Yan Z, Ahmed ZM, Nicolson T. Putting the Pieces Together: the Hair Cell Transduction Complex. J Assoc Res Otolaryngol. 2021 Dec;22(6):601-608</cite>
 </div>
 
 ---
@@ -74,10 +133,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
   <source src="/Video1.mp4" type="video/mp4">
 </video>
 <ul class="mt-20px">
-<li>Are these conformational changes found <emph>in-situ</emph>?</li>
-<li>Despite substantial efforts there is no structural data on any other components</li>
+<li v-click>Are these conformational changes found <emph>in-situ</emph>?</li>
+<li v-click>Despite substantial efforts there is no structural data on any other components</li>
 </ul>
-<h3 class="mt-30px text-red-600">We have to look at the real thing!</h3>
+<h3 v-click class="mt-30px text-red-600">We have to look at the real thing!</h3>
 </div>
 </div>
 <div class="ml-50px mt-10px">
@@ -136,11 +195,11 @@ p {
 - Titan Krios (Janelia and PNCC)
 - Gatan BioQuantum energy filter
 - Gatan K3 camera
-- Operated using SerialEM
+- Operated using **SerialEM**
 
 <h3>Parameters</h3>
 
-- 1.7 Å/pix pixelsize
+- 1.7 Å pixelsize
 - 20 eV energy filter window
 - Dose-symmetric tomogram acquistion at 3° intervals from -60° to +60°
 - 120 e/Å total dose (~3 e/Å per exposure)
@@ -151,10 +210,11 @@ p {
 <div>
 <h3>Data processing</h3>
 
-- Motion correction using UCSF Motioncor2
-- Tomogram processing using IMOD
-- In case of substantial deformation final reconstruction with TomoAlign
-- As necessary, tomograms were denoised using Topaz
+- Motion correction using **UCSF Motioncor2**
+- Tomogram processing using **IMOD**
+  - Final tomograms binned to 6.8 Å pixelsize and with SIRT-like filter
+- In case of substantial deformation final reconstruction with **TomoAlign**
+- As necessary, tomograms were denoised using **Topaz**
 
 </div>
 
@@ -166,7 +226,7 @@ p {
 
 <div class="flex">
 <img src="/isthispcdh15.png" class="w-auto h-400px mt-40px"/>
-<img src="/meme.jpg" class="w-auto h-200px ml-20px mt-140px" />
+<img src="/meme.jpg" v-click class="w-auto h-200px ml-20px mt-140px" />
 </div>
 
 
@@ -177,11 +237,11 @@ p {
 <div class="grid grid-cols-2 justify-items-center gap-y-25px">
 <img src="/poly.png" class="w-auto h-180px" />
 <div class="flex">
-<img src="/g26.png" class="w-auto h-180px" />
-<img src="/g27.png" class="w-auto h-180px" />
+<img v-click src="/g26.png" class="w-auto h-180px" />
+<img v-after src="/g27.png" class="w-auto h-180px" />
 </div>
-<img src="/slicer001.jpg" class="w-auto h-250px" />
-<img src="/title.png" class="w-auto h-250px" />
+<img v-click src="/slicer001.jpg" class="w-auto h-250px" />
+<img v-after src="/title.png" class="w-auto h-250px" />
 </div>
 
 ---
@@ -190,8 +250,11 @@ p {
 
 <div class="grid grid-cols-3 gap-x-20px justify-items-center mt-50px" >
 <img src="/azubel.jpg" />
+<div v-click>
+<h3 class="text-center ml-110px">39G7</h3>
 <img src="/trunc.png" class="ml-50px"/>
-<img src="/graphannot.png" class="ml--70px"/>
+</div>
+<img v-click src="/graphannot.png" class="ml--70px"/>
 
 </div>
 
@@ -273,7 +336,7 @@ layout: cover
 </div>
 ---
 
-# Summary + whats next
+# Summary + what's next
 
 <ul>
 <li>Immuno-AuNPs allow cryo-EM imaging of rare protein complexes
@@ -285,11 +348,18 @@ layout: cover
 </ul>
 </li>
 
-<li>Tip-links might occur with more than one copy at the tip, similar to channels</li>
-<li>Pcdh15 and potentially Cdh23 have predetermined bending points to adopt geometries required for trafficking</li>
+<li v-click>Tip-links might occur with more than one copy at the tip, similar to channels</li>
+<li v-click>Pcdh15 and potentially Cdh23 have predetermined bending points to adopt geometries required for trafficking</li>
 
-<li>Detection of low-abundance and small proteins in cellular cryo-EM data remains challenging and an active area of research</li>
-<li>Faster and more robust sample preparation techniques are critical</li>
+<li v-click>Detection of low-abundance and small proteins in cellular cryo-EM data remains challenging and an active area of research</li>
+<li v-click>Bottlenecks for cellular Cryo-EM:
+<ul>
+<li >Sample preparation</li>
+<li >Data collection</li>
+<li >Computation</li>
+
+</ul>
+</li>
 </ul>
 ---
 
@@ -323,8 +393,8 @@ layout: cover
 <p>Claudia Lopez​​</p>
 <p>Craig Yoshioka​​</p>
 <p class="font-bold underline mt-2rem">Janelia Cryo-EM core:</p>
-<p>Xiaowei Zhao</p>​
-<p>Shixin Yang</p>​
+<p>Xiaowei Zhao</p>
+<p>Shixin Yang</p>
 <p class="font-bold underline mt-2rem">Other:​</p>
 <p>Lauren-Ann Metskalis​​</p>
 <p>Maia Azubel​</p>
@@ -380,3 +450,31 @@ border-style: none !important;
 }
   
 </style>
+
+---
+
+# Submit Questions
+
+<div class="grid grid-cols-2">
+<div class="mt-100px">
+
+- Submit all inquiries through the **Questions pane**
+
+</div>
+<div>
+<img src="/questions.png" class="h-450px ml-80px"/>
+</div>
+</div>
+
+---
+
+# Thank you
+
+<div class="mt-100px"></div>
+
+- Remaining questions will be addressed offline
+
+- Webinar recording will be available within 7 business days
+
+- Recording will be posted to www.gatan.com
+
