@@ -319,6 +319,18 @@ layout: cover
 <p class="font-bold underline mt-2rem">Peter Barr-Gillespie</p>
 <p>Jocelyn Krey</p>
 <p class="font-bold underline mt-2rem">Theresa Nicholson</p>
+<p class="font-bold underline mt-2rem">Pacific Northwest Cryo-EM Center:​</p>
+<p>Claudia Lopez​​</p>
+<p>Craig Yoshioka​​</p>
+<p class="font-bold underline mt-2rem">Janelia Cryo-EM core:</p>
+<p>Xiaowei Zhao</p>​
+<p>Shixin Yang</p>​
+<p class="font-bold underline mt-2rem">Other:​</p>
+<p>Lauren-Ann Metskalis​​</p>
+<p>Maia Azubel​</p>
+</div>
+<div>
+<img src="https://www.hhmi.org/sites/default/files/Logos/JPG/HHMI-horizontal-signature-color.jpg" class="mt-360px" />
 </div>
 </div>
 
